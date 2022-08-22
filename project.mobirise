@@ -944,7 +944,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#2d10a3\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\"><b>AMOSTRAS</b>&nbsp;CLIENTES</h2>\n    <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n        <div class=\"line\"></div>\n    </div>\n<!--     <div mbr-class=\"{'container': !fullWidth}\"> -->\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\" mbr-gallery-show-bullets mbr-gallery-show-filter></div>\n   <!--  </div> -->\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\" checked>\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#2d10a3\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Items Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#ffffff\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\"><b>AMOSTRAS</b>&nbsp;CLIENTES</h2>\n    <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n        <div class=\"line\"></div>\n    </div>\n<!--     <div mbr-class=\"{'container': !fullWidth}\"> -->\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\" mbr-gallery-show-bullets mbr-gallery-show-text></div>\n   <!--  </div> -->\n</section>",
           "_cid": "rpJtHzTkpX",
           "_anchor": "gallery1-b",
           "_sourceTheme": "storem4",
@@ -962,7 +962,7 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@THEME_PATH@/components/_images/logo.jpg",
                 "playVideo": false,
                 "videoUrl": "https://drive.google.com/file/d/13NWSrfjpdmKei4Pma8Ht6WsP_xPr9ers/preview",
@@ -971,11 +971,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Produção de Video",
+                "caption": "Arte Digital",
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022010-1019322022-0-1-11-25-9.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=PXYUWbVX_eA",
@@ -985,10 +985,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Produção de Video",
-                "active": true
+                "active": false
               },
               {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-10-3-34.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=dqUv61S1gPE",
@@ -997,24 +997,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Produção de Video",
+                "caption": "Arte Digital",
                 "active": false
               },
               {
-                "tags": "Artes",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-10-3-34.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=dqUv61S1gPE",
-                "image": "@PROJECT_PATH@/assets/images/stories-gb-1080x1920.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/stories-gb-1080x1920-800x1422.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Produção de Video",
-                "active": false
-              },
-              {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-10-3-34.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=dqUv61S1gPE",
@@ -1023,11 +1010,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Produção de Video",
+                "caption": "Arte Digital",
                 "active": false
               },
               {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-10-3-34.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=dqUv61S1gPE",
@@ -1036,11 +1023,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Produção de Video",
+                "caption": "Arte Digital",
                 "active": false
               },
               {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-10-3-34.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=dqUv61S1gPE",
@@ -1049,11 +1036,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Produção de Video",
+                "caption": "Arte Digital",
                 "active": false
               },
               {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-10-3-34.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=dqUv61S1gPE",
@@ -1062,11 +1049,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Produção de Video",
+                "caption": "Arte Digital",
                 "active": false
               },
               {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-10-3-34.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=dqUv61S1gPE",
@@ -1075,11 +1062,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Produção de Video",
+                "caption": "Arte Digital",
                 "active": false
               },
               {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-10-3-34.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=dqUv61S1gPE",
@@ -1088,11 +1075,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Produção de Video",
+                "caption": "Arte Digital",
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202249-128462022-4-1-14-51-23.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=U4wGLFW4Cbs",
@@ -1105,7 +1092,7 @@
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202249-128462022-4-1-14-52.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=CzZXsTF2mAg",
@@ -1118,7 +1105,7 @@
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202249-128462022-4-1-14-53-27.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=i8JUcoeGx5Y",
@@ -1131,7 +1118,7 @@
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202249-128462022-4-1-14-52-29.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=pTrG6LfIFyE",
@@ -1144,7 +1131,7 @@
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202249-128462022-4-1-14-54-2.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=-nKKByDrXMw",
@@ -1157,7 +1144,7 @@
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-9-8-5.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=V53v1S9dLNw",
@@ -1170,7 +1157,7 @@
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019428-729432019-4-2-9-37-11.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=-A7_S-_Y_gg",
@@ -1183,7 +1170,7 @@
                 "active": false
               },
               {
-                "tags": "Fotografia",
+                "tags": "",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1196,7 +1183,7 @@
                 "active": false
               },
               {
-                "tags": "Sites",
+                "tags": "",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1209,7 +1196,7 @@
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019413-2112222019-4-2-0-7-33.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/alzKr7e8jG0?list=PLzkSShiXIfPKKmNtbKee4WwveTdINLADX",
@@ -1222,7 +1209,7 @@
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019413-2112222019-4-2-1-55-30.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=OdQ5BFlac00",
@@ -1235,7 +1222,7 @@
                 "active": false
               },
               {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019413-2112222019-4-2-1-55-30.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=OdQ5BFlac00",
@@ -1248,7 +1235,7 @@
                 "active": false
               },
               {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019413-2112222019-4-2-1-55-30.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=OdQ5BFlac00",
@@ -1261,7 +1248,7 @@
                 "active": false
               },
               {
-                "tags": "Artes",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019413-2112222019-4-2-2-31-48.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=RuswXq7sMMA",
@@ -1271,10 +1258,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Criação de Arte - Capa Spotify",
-                "active": false
+                "active": true
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019413-2112222019-4-2-0-2-12.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=6GiILcZSIf4&list=PLzkSShiXIfPKKmNtbKee4WwveTdINLADX&index=2",
@@ -1287,7 +1274,7 @@
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019413-2112222019-4-2-2-31-48.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=RuswXq7sMMA",
@@ -1296,11 +1283,11 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "Criação de Arte - Capa Spotify",
+                "caption": "Video&nbsp;",
                 "active": false
               },
               {
-                "tags": "Videos",
+                "tags": "",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019413-2112222019-4-2-0-3-34.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/E6TrkENlqH4?list=PLzkSShiXIfPKKmNtbKee4WwveTdINLADX",
@@ -2109,7 +2096,7 @@
           },
           "_name": "info1",
           "_sourceTheme": "storem4",
-          "_customHTML": "<section class=\"mbr-section info1\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#9a009c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#5a31fb\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked condition=\"bg.type!='color'&&overlay\">\n        <input type=\"color\" title=\"Color 2\" name=\"overlayColor2\" value=\"9e4dfe\" condition=\"gradientOverlay&&overlay\">\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"bgColor2\" value=\"#44f7b3\" condition=\"bg.type=='color' && gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">WHATSAPP: 62 4101 2203</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">\n                    Fale Conosco Agora!</h3>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"https://wa.me/message/O2HKT4YGPVO4D1\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>WHATSAPP</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info1\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#9a009c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=kI1YE_qenSU\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#5a31fb\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked condition=\"bg.type!='color'&&overlay\">\n        <input type=\"color\" title=\"Color 2\" name=\"overlayColor2\" value=\"9e4dfe\" condition=\"gradientOverlay&&overlay\">\n        <input type=\"checkbox\" title=\"Gradient Background\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"bgColor2\" value=\"#44f7b3\" condition=\"bg.type=='color' && gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">WHATSAPP: 62 4101 2203</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">\n                    Fale Conosco Agora!</h3>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"https://wa.me/message/O2HKT4YGPVO4D1\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>WHATSAPP</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "t4yiO41oJL",
           "_anchor": "info1-8u",
           "_protectedParams": [],
