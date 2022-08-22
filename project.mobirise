@@ -109,12 +109,13 @@
       "email": "digital@criarstudios.com"
     },
     "imageResize": true,
-    "mbrsiteDomain": "km5lbvznnc",
+    "mbrsiteDomain": "ltpnwtf0uz",
     "gdpr": false,
     "site_lang": "pt-br",
-    "global_footer_custom": "<!-- Messenger Plugin de bate-papo Code -->\n    <div id=\"fb-root\"></div>\n\n    <!-- Your Plugin de bate-papo code -->\n    <div id=\"fb-customer-chat\" class=\"fb-customerchat\">\n    </div>\n\n    <script>\n      var chatbox = document.getElementById('fb-customer-chat');\n      chatbox.setAttribute(\"page_id\", \"279493898803221\");\n      chatbox.setAttribute(\"attribution\", \"biz_inbox\");\n    </script>\n\n    <!-- Your SDK code -->\n    <script>\n      window.fbAsyncInit = function() {\n        FB.init({\n          xfbml            : true,\n          version          : 'v13.0'\n        });\n      };\n\n      (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https://connect.facebook.net/pt_BR/sdk/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));\n    </script>",
-    "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GQ38W4K98J\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-GQ38W4K98J');\n</script>\n<script src=\"//code-sa1.jivosite.com/widget/iF56o1Zq9p\" async></script>\n",
-    "global_before_html": "<!-- Criado e desenvolvido por MAVE RED STUDIOS -- Marketing e Mídia - Goiânia - GO BRASIL - 62 4101 2203, https://maveredstudios.com -->"
+    "global_footer_custom": "",
+    "global_header_custom": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-5DFZKXN');</script>\n<!-- End Google Tag Manager -->",
+    "global_before_html": "<!-- Criado e desenvolvido por MAVE RED STUDIOS -- Marketing e Mídia - Goiânia - GO BRASIL - 62 4101 2203, https://maveredstudios.com -->",
+    "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5DFZKXN\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
   },
   "pages": {
     "index.html": {
