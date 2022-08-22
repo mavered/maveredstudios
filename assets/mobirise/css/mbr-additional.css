@@ -1001,9 +1001,6 @@ a:hover {
   color: #dfffeb;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
-}
 #scrollToTop a i:before {
   content: '';
   position: absolute;
@@ -1562,9 +1559,9 @@ body {
   background: linear-gradient(90deg, #5a31fb, #000000);
 }
 .cid-tcBD4a2tzc {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #fe0613;
+  background-color: #9a009c;
 }
 .cid-tcBD4a2tzc .container-fluid {
   padding: 0 3rem;
@@ -1575,8 +1572,8 @@ body {
 .cid-tcBD4a2tzc .mbr-section-title {
   display: inline-block;
   position: relative;
-  color: #00ffff;
-  text-align: left;
+  color: #ffffff;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .cid-tcBD4a2tzc .container-fluid {
@@ -1585,213 +1582,34 @@ body {
 }
 .cid-tcBD4a2tzc .mbr-section-subtitle {
   color: #ffffff;
-  text-align: left;
-}
-#custom-html-94 {
-  /* Type valid CSS here */
-}
-#custom-html-94 div {
-  padding: 80px 0;
-  color: #777;
   text-align: center;
 }
-#custom-html-94 p {
-  font-size: 60px;
-  color: #777;
+#custom-html-9q {
+  background-color: #000;
 }
-#custom-html-95 {
-  /* Type valid CSS here */
+#custom-html-9s {
+  background-color: #000;
 }
-#custom-html-95 div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
+#custom-html-9t {
+  background-color: #000;
 }
-#custom-html-95 p {
-  font-size: 60px;
-  color: #777;
+#custom-html-9u {
+  background-color: #000;
 }
-.cid-rroopqZcvj {
-  background: #ffffff;
+#custom-html-9o {
+  background-color: #000;
 }
-.cid-rroopqZcvj .container-fluid {
-  padding: 0 3rem;
+#custom-html-9v {
+  background-color: #000;
 }
-.cid-rroopqZcvj .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 767px) {
-  .cid-rroopqZcvj .container-fluid {
-    padding: 0 1rem;
-  }
-  .cid-rroopqZcvj .video-block {
-    width: 100% !important;
-  }
-}
-.cid-rrguM8peVT {
-  background: #ffffff;
-}
-.cid-rrguM8peVT .container-fluid {
-  padding: 0 3rem;
-}
-.cid-rrguM8peVT .video-block {
-  margin: auto;
-  width: 100% !important;
-}
-@media (max-width: 100% px) {
-  .cid-rrguM8peVT .container-fluid {
-    padding: 0 1rem;
-  }
-  .cid-rrguM8peVT .video-block {
-    width: 100px !important;
-  }
-}
-.cid-rIXqwTzore {
-  padding-top: 45px;
-  padding-bottom: 0px;
-  background-color: #000000;
-}
-.cid-rIXqwTzore .container-fluid {
-  padding: 0 3rem;
-}
-.cid-rIXqwTzore .blockquote-quote svg {
-  height: 30px;
-  width: 30px;
-}
-.cid-rIXqwTzore svg.svg-gradient {
-  position: absolute;
-  opacity: 0;
-  z-index: -100;
-}
-.cid-rIXqwTzore .signature > span {
-  color: #fe0613;
-}
-@media (max-width: 767px) {
-  .cid-rIXqwTzore .blockquote-quote {
-    text-align: left;
-  }
-  .cid-rIXqwTzore .container-fluid {
-    padding: 0 1rem;
-  }
-}
-.cid-rIXqwTzore .mbr-section-title {
-  color: #ffffff;
-  text-align: left;
-}
-.cid-rIXqwTzore .mbr-text,
-.cid-rIXqwTzore .blockquote-quote {
-  color: #ffffff;
-}
-#custom-html-93 {
-  /* Type valid CSS here */
-}
-#custom-html-93 div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-93 p {
-  font-size: 60px;
-  color: #777;
-}
-#custom-html-98 {
-  /* Type valid CSS here */
-}
-#custom-html-98 div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-98 p {
-  font-size: 60px;
-  color: #777;
-}
-#custom-html-99 {
-  /* Type valid CSS here */
-}
-#custom-html-99 div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-99 p {
-  font-size: 60px;
-  color: #777;
-}
-#custom-html-9a {
-  /* Type valid CSS here */
-}
-#custom-html-9a div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-9a p {
-  font-size: 60px;
-  color: #777;
-}
-#custom-html-9b {
-  /* Type valid CSS here */
-}
-#custom-html-9b div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-9b p {
-  font-size: 60px;
-  color: #777;
-}
-#custom-html-9c {
-  /* Type valid CSS here */
-}
-#custom-html-9c div {
-  padding: 0;
-}
-#custom-html-9c p {
-  font-size: 60px;
-  color: #777;
-}
-#custom-html-9e {
-  /* Type valid CSS here */
-}
-#custom-html-9e div {
-  padding: 0;
-}
-#custom-html-9e p {
-  font-size: 60px;
-  color: #777;
-}
-#custom-html-9f {
-  /* Type valid CSS here */
-}
-#custom-html-9f div {
-  padding: 0;
-}
-#custom-html-9f p {
-  font-size: 60px;
-  color: #777;
-}
-.cid-t5o3hgiOPs {
+.cid-tfc3ALqFgn {
   padding-top: 45px;
   padding-bottom: 45px;
   background-color: #000000;
 }
-.cid-t5o3hgiOPs .container-fluid {
-  padding: 0 3rem;
-}
-.cid-t5o3hgiOPs .media-container-column {
-  padding: 0 2rem;
-}
-.cid-t5o3hgiOPs .mbr-section-title {
-  display: inline-block;
-  position: relative;
-}
-@media (max-width: 767px) {
-  .cid-t5o3hgiOPs .container-fluid {
-    padding: 0 1rem;
-  }
+.cid-tfc3ALqFgn .mbr-overlay {
+  background-color: #5a31fb;
+  background: linear-gradient(90deg, #5a31fb, #000000);
 }
 .cid-rpJtHzTkpX {
   padding-top: 30px;
@@ -1967,11 +1785,6 @@ body {
 }
 .cid-rrkP4vYvg8 .text-block {
   text-align: left !important;
-}
-.cid-rrxqJJ2LY9 {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #000000;
 }
 .cid-t5yZnh6t8e {
   padding-top: 60px;
@@ -2566,7 +2379,7 @@ body {
   padding-bottom: 0px;
   padding-left: 0;
   padding-right: 0;
-  background-color: #232323;
+  background-color: #000000;
 }
 .cid-rqoRte3jUP ul {
   list-style: none;
